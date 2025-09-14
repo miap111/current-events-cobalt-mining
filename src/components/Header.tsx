@@ -10,25 +10,12 @@ const Header = () => {
               <Zap className="h-6 w-6 text-primary-foreground" />
             </div>
             <div>
-              <h1 className="text-xl font-bold">[Your Project Name]</h1>
+              
               <p className="text-xs text-muted-foreground">Current Events Research Project</p>
             </div>
           </Link>
           
-          <nav className="hidden md:flex items-center space-x-6">
-            <Link to="/" className="text-foreground hover:text-primary transition-colors">
-              Home
-            </Link>
-            <Link to="/articles" className="text-foreground hover:text-primary transition-colors">
-              Articles
-            </Link>
-            <Link to="/research" className="text-foreground hover:text-primary transition-colors">
-              Research
-            </Link>
-            <Link to="/sources" className="text-foreground hover:text-primary transition-colors">
-              Sources
-            </Link>
-          </nav>
+          
           
           <div className="hidden md:block">
             {/* Space for additional content if needed */}
