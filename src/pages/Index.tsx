@@ -15,10 +15,9 @@ const Index = () => {
       
       <main className="container mx-auto px-4 py-16">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4">Latest Investigations</h2>
+          <h2 className="text-3xl font-bold mb-4">Research Articles</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Stay informed with our ongoing coverage of cobalt mining's impact on communities, 
-            environment, and global supply chains.
+            [Write a description of your research project here. What are you studying and what questions are you trying to answer?]
           </p>
         </div>
         
@@ -29,17 +28,15 @@ const Index = () => {
         </div>
         
         <div className="text-center mt-12">
-          <div className="inline-flex items-center justify-center p-4 bg-primary/5 rounded-lg border border-primary/20">
-            <p className="text-muted-foreground mr-4">
-              Want to contribute to this investigation?
-            </p>
-            <div className="flex gap-2">
-              <button className="px-4 py-2 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors">
-                Submit a Tip
-              </button>
-              <button className="px-4 py-2 border border-primary text-primary rounded-md hover:bg-primary/10 transition-colors">
-                Support Our Work
-              </button>
+          <div className="inline-flex items-center justify-center p-6 bg-primary/5 rounded-lg border border-primary/20">
+            <div className="text-center">
+              <h3 className="text-lg font-semibold mb-2">Research Notes</h3>
+              <p className="text-muted-foreground mb-4 max-w-lg">
+                This is your space to add research methodology, data sources, or any additional context about your project.
+              </p>
+              <div className="text-sm text-muted-foreground bg-muted/50 p-4 rounded border-2 border-dashed border-muted-foreground/30">
+                [Add your research notes, methodology, or conclusions here]
+              </div>
             </div>
           </div>
         </div>

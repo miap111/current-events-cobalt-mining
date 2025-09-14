@@ -2,145 +2,128 @@ import type { BlogPost } from "@/types/blog";
 
 export const blogPosts: BlogPost[] = [
   {
-    id: "drc-child-labor-2024",
-    title: "New UN Report Exposes Worsening Child Labor in DRC Cobalt Mines",
-    excerpt: "A damning United Nations investigation reveals that child labor in Democratic Republic of Congo's cobalt mines has increased by 40% since 2020, with children as young as 7 working in hazardous conditions to fuel our technology addiction.",
+    id: "post-1",
+    title: "[Your First Article Title Here]",
+    excerpt: "[Write your article summary here - 2-3 sentences about what you discovered in your research]",
     content: `
-      <p>The latest United Nations report on cobalt mining in the Democratic Republic of Congo paints a grim picture of an industry built on exploitation. Released this month, the investigation found that an estimated 40,000 children are currently working in cobalt mines across the country's southeastern provinces.</p>
+      <p>[Write your full article content here]</p>
       
-      <p>The report documents systematic violations of international labor standards, including:</p>
-      <ul>
-        <li>Children as young as 7 years old carrying heavy sacks of cobalt ore</li>
-        <li>12-hour work shifts with minimal breaks</li>
-        <li>Exposure to toxic dust without protective equipment</li>
-        <li>Dangerous tunnel conditions with frequent collapses</li>
-      </ul>
+      <div style="border: 2px dashed #ccc; padding: 20px; margin: 20px 0; text-align: center; background: #f9f9f9;">
+        <h4>Article Embed Area</h4>
+        <p>Paste your external article link, iframe, or embedded content here</p>
+      </div>
       
-      <p>Despite promises from major tech companies to clean up their supply chains, the situation has deteriorated significantly. The demand for cobalt, essential for lithium-ion batteries in smartphones, laptops, and electric vehicles, continues to drive this humanitarian crisis.</p>
-      
-      <p>"Every smartphone in your pocket is connected to the suffering of these children," said Dr. Marie Kowalski, lead researcher on the UN investigation. "The global technology industry cannot continue to turn a blind eye to this crisis."</p>
+      <p>[Add more of your analysis and findings here]</p>
     `,
-    date: "December 15, 2024",
-    readTime: "6 min read",
-    category: "Human Rights",
-    tags: ["child labor", "UN report", "DRC", "supply chain"],
-    externalLink: "https://example.com/un-report-drc-cobalt",
+    date: "[Date]",
+    readTime: "[X min read]",
+    category: "[Your Category]",
+    tags: ["[tag1]", "[tag2]", "[tag3]"],
+    externalLink: "[Your source article URL here]",
     sources: [
-      "United Nations Human Rights Council Report 2024",
-      "Amnesty International DRC Investigation",
-      "Local DRC journalists network"
+      "[Source 1]",
+      "[Source 2]", 
+      "[Source 3]"
     ]
   },
   {
-    id: "tesla-supply-chain-2024",
-    title: "Tesla's Cobalt Problem: How Green Technology Fuels Environmental Destruction",
-    excerpt: "Despite Elon Musk's promises to eliminate cobalt from Tesla batteries, new documents reveal the company still sources 60% of its cobalt from controversial DRC mines, contributing to massive environmental degradation.",
+    id: "post-2", 
+    title: "[Your Second Article Title Here]",
+    excerpt: "[Write your second article summary here - explain what this piece covers and why it's important to your research]",
     content: `
-      <p>Internal Tesla documents obtained through a freedom of information request reveal a stark contradiction between the company's public commitments and its actual sourcing practices. While CEO Elon Musk has repeatedly promised to reduce cobalt usage, Tesla's 2024 supply chain data shows continued heavy reliance on DRC cobalt.</p>
+      <p>[Your research findings and analysis go here]</p>
       
-      <p>The environmental impact is staggering:</p>
-      <ul>
-        <li>Over 2.3 million tons of toxic waste generated annually</li>
-        <li>Contamination of three major river systems</li>
-        <li>Deforestation of 15,000 hectares of rainforest</li>
-        <li>Displacement of indigenous communities</li>
-      </ul>
+      <div style="border: 2px dashed #ccc; padding: 20px; margin: 20px 0; text-align: center; background: #f9f9f9;">
+        <h4>Article Embed Area</h4>
+        <p>Embed your source article, video, or other media here</p>
+      </div>
       
-      <p>Local environmental scientist Dr. Joseph Mukendi documented the devastating effects: "The rivers that once provided clean water to our communities now run red with mining runoff. Fish populations have collapsed, and crop yields have dropped by 70% in affected areas."</p>
+      <p>[Continue your analysis and conclusions here]</p>
     `,
-    date: "December 10, 2024",
-    readTime: "8 min read",
-    category: "Environmental Impact",
-    tags: ["Tesla", "environmental destruction", "supply chain", "greenwashing"],
-    externalLink: "https://example.com/tesla-cobalt-investigation",
+    date: "[Date]",
+    readTime: "[X min read]", 
+    category: "[Your Category]",
+    tags: ["[tag1]", "[tag2]", "[tag3]"],
+    externalLink: "[Your source article URL here]",
     sources: [
-      "Tesla internal documents (FOIA request)",
-      "Environmental Science Institute DRC",
-      "Local community testimonies"
+      "[Source 1]",
+      "[Source 2]",
+      "[Source 3]"
     ]
   },
   {
-    id: "apple-cobalt-audit-2024",
-    title: "Apple's Failed Cobalt Audit: How Tech Giants Dodge Responsibility",
-    excerpt: "An independent investigation into Apple's cobalt supply chain reveals that the company's much-publicized auditing system failed to detect widespread human rights abuses at certified supplier mines in the DRC.",
+    id: "post-3",
+    title: "[Your Third Article Title Here]", 
+    excerpt: "[Describe what this article covers and what research or sources you used]",
     content: `
-      <p>Apple's 2024 Supplier Responsibility Report claimed "zero tolerance" for human rights violations in its cobalt supply chain. However, our six-month investigation reveals a different reality on the ground in the Democratic Republic of Congo.</p>
+      <p>[Your third article content here]</p>
       
-      <p>Key findings from our investigation:</p>
-      <ul>
-        <li>5 out of 7 "Apple-certified" mines employed children under 14</li>
-        <li>Safety violations documented at all audited facilities</li>
-        <li>Workers paid below minimum wage at 80% of certified suppliers</li>
-        <li>Environmental regulations systematically ignored</li>
-      </ul>
+      <div style="border: 2px dashed #ccc; padding: 20px; margin: 20px 0; text-align: center; background: #f9f9f9;">
+        <h4>Article Embed Area</h4>
+        <p>Place your embedded content, links, or media here</p>
+      </div>
       
-      <p>Former Apple auditor Sarah Chen, who worked on the cobalt supply chain program from 2019-2023, revealed the systemic problems: "The auditing process is designed to give Apple plausible deniability, not to actually address the problems. Mines would clean up for the few days we were there, then return to business as usual."</p>
+      <p>[Add your analysis and conclusions]</p>
     `,
-    date: "December 5, 2024",
-    readTime: "7 min read",
-    category: "Corporate Accountability",
-    tags: ["Apple", "supply chain audit", "corporate responsibility", "whistleblower"],
-    externalLink: "https://example.com/apple-cobalt-audit-failure",
+    date: "[Date]",
+    readTime: "[X min read]",
+    category: "[Your Category]", 
+    tags: ["[tag1]", "[tag2]", "[tag3]"],
+    externalLink: "[Your source article URL here]",
     sources: [
-      "Former Apple employee testimony",
-      "Independent mine inspections",
-      "DRC Ministry of Labor documents"
+      "[Source 1]",
+      "[Source 2]",
+      "[Source 3]"
     ]
   },
   {
-    id: "congo-mining-profits-2024",
-    title: "Blood Cobalt: How Western Companies Profit from Congolese Suffering",
-    excerpt: "New financial analysis reveals that international cobalt trading companies are generating billions in profits while Congolese miners earn less than $2 per day, perpetuating a system of economic colonialism.",
+    id: "post-4",
+    title: "[Your Fourth Article Title Here]",
+    excerpt: "[Write about what this article explores and what you learned from your research]", 
     content: `
-      <p>A comprehensive financial investigation by the International Consortium of Investigative Journalists reveals the shocking wealth disparity in the global cobalt trade. While mining companies and international traders generate over $15 billion annually from DRC cobalt, the average miner earns just $1.50 per day.</p>
+      <p>[Your fourth article content]</p>
       
-      <p>The profit distribution breakdown:</p>
-      <ul>
-        <li>International trading companies: 65% of total profits</li>
-        <li>Technology manufacturers: 25% of total profits</li>
-        <li>Congolese government and local economy: 8% of total profits</li>
-        <li>Miners and local communities: 2% of total profits</li>
-      </ul>
+      <div style="border: 2px dashed #ccc; padding: 20px; margin: 20px 0; text-align: center; background: #f9f9f9;">
+        <h4>Article Embed Area</h4>
+        <p>Add your source materials, embedded articles, or media here</p>
+      </div>
       
-      <p>This economic structure, described by economists as "resource colonialism," ensures that the DRC remains impoverished despite sitting on trillions of dollars worth of mineral wealth.</p>
+      <p>[Your analysis and findings]</p>
     `,
-    date: "November 28, 2024",
-    readTime: "9 min read",
-    category: "Economic Justice",
-    tags: ["economic inequality", "resource colonialism", "profit distribution", "ICIJ"],
-    externalLink: "https://example.com/cobalt-profit-investigation",
+    date: "[Date]",
+    readTime: "[X min read]",
+    category: "[Your Category]",
+    tags: ["[tag1]", "[tag2]", "[tag3]"],
+    externalLink: "[Your source article URL here]",
     sources: [
-      "International Consortium of Investigative Journalists",
-      "DRC Ministry of Finance records",
-      "Trading company financial disclosures"
+      "[Source 1]", 
+      "[Source 2]",
+      "[Source 3]"
     ]
   },
   {
-    id: "health-crisis-mining-2024",
-    title: "Toxic Legacy: The Health Crisis in DRC's Cobalt Mining Regions",
-    excerpt: "Medical researchers document alarming rates of respiratory disease, birth defects, and neurological disorders in communities surrounding cobalt mines, revealing a public health catastrophe ignored by the international community.",
+    id: "post-5", 
+    title: "[Your Fifth Article Title Here]",
+    excerpt: "[Summarize what this final article covers and what conclusions you drew]",
     content: `
-      <p>A groundbreaking epidemiological study published in the Lancet Global Health reveals the devastating health impacts of cobalt mining on local communities in the DRC. The five-year study, conducted across 12 mining regions, documents health outcomes that researchers describe as "catastrophic."</p>
+      <p>[Your fifth article content]</p>
       
-      <p>Key health findings:</p>
-      <ul>
-        <li>Respiratory disease rates 400% higher than national average</li>
-        <li>Birth defect rates increased by 280% in mining areas</li>
-        <li>Neurological disorders affecting 35% of long-term miners</li>
-        <li>Childhood developmental delays in 60% of mining families</li>
-      </ul>
+      <div style="border: 2px dashed #ccc; padding: 20px; margin: 20px 0; text-align: center; background: #f9f9f9;">
+        <h4>Article Embed Area</h4>
+        <p>Embed your final source article or supporting materials here</p>
+      </div>
       
-      <p>Dr. Fatima Nsapu, who led the research team, describes the situation as "an ongoing humanitarian disaster hidden from the world's view. These communities are paying the ultimate price for our digital lifestyle."</p>
+      <p>[Your final analysis and conclusions]</p>
     `,
-    date: "November 20, 2024",
-    readTime: "10 min read",
-    category: "Public Health",
-    tags: ["health crisis", "medical research", "toxic exposure", "community health"],
-    externalLink: "https://example.com/drc-health-crisis-study",
+    date: "[Date]",
+    readTime: "[X min read]", 
+    category: "[Your Category]",
+    tags: ["[tag1]", "[tag2]", "[tag3]"],
+    externalLink: "[Your source article URL here]",
     sources: [
-      "The Lancet Global Health Journal",
-      "University of Kinshasa Medical School",
-      "Local health clinic records"
+      "[Source 1]",
+      "[Source 2]", 
+      "[Source 3]"
     ]
   }
 ];

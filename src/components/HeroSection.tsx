@@ -30,10 +30,10 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center mb-12">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-foreground to-cobalt-light bg-clip-text text-transparent">
-            The Hidden Cost of Our Digital Age
+            [Your Project Title Here]
           </h1>
           <p className="text-xl text-muted-foreground mb-8">
-            Investigating the environmental and human impact of cobalt mining in the Democratic Republic of Congo
+            [Write your project description here - what is your research focus and why is it important?]
           </p>
         </div>
 
@@ -68,12 +68,12 @@ const HeroSection = () => {
             
             <div className="flex flex-col sm:flex-row gap-4">
               <Button className="gradient-cobalt shadow-cobalt">
-                Read Full Investigation
+                Read Full Article
               </Button>
               {currentPost.externalLink && (
                 <Button variant="outline" className="border-primary/50">
                   <ExternalLink className="h-4 w-4 mr-2" />
-                  Source Article
+                  View Original Source
                 </Button>
               )}
             </div>
