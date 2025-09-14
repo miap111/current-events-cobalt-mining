@@ -57,6 +57,12 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        cobalt: {
+          primary: "hsl(var(--cobalt-primary))",
+          light: "hsl(var(--cobalt-light))",
+          dark: "hsl(var(--cobalt-dark))",
+        },
+        metallic: "hsl(var(--metallic))",
       },
       borderRadius: {
         lg: "var(--radius)",
